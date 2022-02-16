@@ -1,0 +1,63 @@
+* {
+  background-color: rgb(189, 221, 221);
+}
+
+.container {
+  padding: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search {
+  background-color: rgb(255, 234, 234);
+  border: none;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 20px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.spin-button {
+  background-color: rgb(58, 58, 90);
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 30px;
+  border: none;
+  margin-top: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+h1 {
+  background-color: transparent;
+  margin-left: 20px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+h2 {
+  background-color: transparent;
+  margin-left: 30px;
+  /* border: solid; */
+  border-radius: 30px;
+  padding: 10px;
+}

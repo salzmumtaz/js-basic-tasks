@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "display byy",
+      "path": "/task1"
+    },
+    {
+      "id": 2,
+      "name": "spin and win",
+      "path": "task2/index.html"
+    },
+    {
+      "id": 3,
+      "name": "difference byy 13",
+      "path": "task3/index.html"
+    }
+  ]
+}

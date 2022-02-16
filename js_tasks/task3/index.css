@@ -1,0 +1,46 @@
+* {
+  background-color: rgb(189, 221, 221);
+}
+
+.container {
+  padding: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: transparent;
+}
+form {
+  background-color: transparent;
+}
+
+.button {
+  background-color: rgb(58, 58, 90);
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 35px;
+  border: none;
+  margin-top: 20px;
+}
+
+.search {
+  background-color: rgb(255, 234, 234);
+  border: none;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 20px;
+  display: flex;
+  padding-left: 20px;
+}
